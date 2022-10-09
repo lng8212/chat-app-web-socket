@@ -1,10 +1,9 @@
 package com.plcoding
 
+import com.plcoding.data.model.plugins.*
 import com.plcoding.di.mainModule
 import io.ktor.application.*
-import com.plcoding.plugins.*
 import org.koin.ktor.ext.Koin
-import org.koin.ktor.ext.modules
 
 fun main(args: Array<String>): Unit =
     io.ktor.server.netty.EngineMain.main(args)

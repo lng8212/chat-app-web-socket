@@ -1,11 +1,8 @@
-package com.plcoding.plugins
+package com.plcoding.data.model.plugins
 
 import com.plcoding.session.ChatSession
-import io.ktor.sessions.*
 import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
-import io.ktor.routing.*
+import io.ktor.sessions.*
 import io.ktor.util.*
 
 fun Application.configureSecurity() {

@@ -1,20 +1,10 @@
 package com.plcoding
 
-import io.ktor.routing.*
+import com.plcoding.data.model.plugins.configureRouting
 import io.ktor.http.*
-import io.ktor.http.cio.websocket.*
-import io.ktor.websocket.*
-import java.time.*
-import io.ktor.serialization.*
-import io.ktor.features.*
-import org.slf4j.event.*
-import io.ktor.sessions.*
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
-import kotlin.test.*
 import io.ktor.server.testing.*
-import com.plcoding.plugins.*
+import kotlin.test.Test
+import kotlin.test.assertEquals
 
 class ApplicationTest {
     @Test
