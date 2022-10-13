@@ -18,4 +18,6 @@ fun Application.module() {
     configureSerialization()
     configureMonitoring()
     configureSecurity()
+    configureLogin()
+    configureAllUser()
 }
